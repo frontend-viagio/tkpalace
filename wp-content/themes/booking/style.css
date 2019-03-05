@@ -1,0 +1,334 @@
+/*
+Theme Name: Seed Theme
+Theme URI: http://booking2hotels.com/
+Author: the WordPress team
+Version: 1.0
+*/
+.booking-engine #b2h-engine * {
+    font-family: Lato-Regular !important;
+    font-weight: 600 !important;
+}
+.main-popup-height p,
+.amenities-popup ul > li {
+    color: #717171;
+}
+
+.page-attraction .attraction_content {
+    padding-top: 10px;
+}
+
+.page-attraction .attraction_more_detail a {
+    text-decoration: none;
+    color: white;
+    -moz-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    -webkit-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+}
+
+.page-attraction .attraction_more_detail a:hover {
+    color: #ffe3a6;
+    -moz-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    -webkit-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+}
+
+.mr_bottom_40 {
+    margin-bottom: 40px;
+}
+
+.home .box-searchLandscape {
+    background-color: #d2a647;
+}
+
+.home .box-searchLandscape .header h2 {
+    margin: 0;
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #ffdd94;
+}
+
+.home .box-searchLandscape .box-calendar .calender .form-group #dateci {
+    background-image: url(assets/images/check-in.png);
+}
+
+.home .box-searchLandscape .box-calendar .calender .form-group input {
+    height: 40px;
+    background-position: right;
+    background-size: 55px auto;
+    color: #846009;
+    background-repeat: no-repeat;
+    border: 0;
+    border-radius: 0;
+    color: #846009;
+}
+
+.home .box-searchLandscape .box-calendar .calender .form-group #dateco {
+    background-image: url(assets/images/check-out.png);
+}
+
+.home .box-searchLandscape .box-calendar .calender .form-group #discountcode {
+    background-image: url(assets/images/promo-code.png);
+}
+
+.home .box-searchLandscape .box-calendar .calender .form-group label {
+    margin: 0;
+    color: #846009;
+}
+
+.home .box-searchLandscape .box-calendar .calender .form-group {
+    margin-bottom: 6px;
+}
+
+.home .box-searchLandscape .box-calendar .calender #btnBook {
+    margin-top: 22px;
+    background-color: #2b292a;
+    border: 0;
+    border-radius: 0;
+    color: #d2a647;
+    text-transform: uppercase;
+    font-size: 16px;
+    height: 40px;
+    transition: all .3s ease-in-out;
+
+}
+
+
+.home .box-searchLandscape .header {
+    padding: 24px 0 20px;
+}
+
+.fixed-pcmenu.home .box-searchLandscape .header {
+    margin: 5px 0 !important;
+}
+
+.fixed-pcmenu.home .box-searchLandscape {
+    padding-bottom: 0;
+    transition: all .3s ease-in-out;
+}
+
+.signup_member {
+    position: absolute;
+    right: 15px;
+    bottom: -55px;
+    opacity: 1;
+    transition: all .5s ease-in-out;
+}
+
+.fixed-pcmenu .signup_member {
+    transition: all .5s ease-in-out;
+    opacity: 0;
+}
+
+.box-card a {
+    font-weight: bold;
+}
+
+@media (max-width: 992px) {
+    .fixed-pcmenu.home .box-searchLandscape {
+        position: static !important;
+        padding: 10px 0 20px 0;
+    }
+    .home .box-searchLandscape {
+        padding: 10px 0 20px 0;
+    }
+    .fixed-pcmenu .bht-header .main-menu.searchLandscape {
+        position: static!important;
+
+    }
+    .fixed-pcmenu .bht-header .main-menu.searchLandscape .navbar-default .navbar-brand > img {
+        max-height: 50px;
+    }
+    .displayNone-mobile {
+        display: none;
+    }
+    .home .bht-header .main-menu.searchLandscape {
+        position: static!important;
+
+    }
+    .signup_member {
+        position: relative;
+        bottom: 0;
+        padding-top: 17px;
+        right: 0;
+    }
+    .signup_member img{
+        margin: 0 auto;
+    }
+    .fixed-pcmenu .signup_member {
+        opacity: 1;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .fixed-pcmenu .bht-header .main-menu.searchLandscape {
+        position: static!important;
+
+    }
+
+}
+.sister_hotel {
+	margin: 30px 0 30px 0;
+	
+}
+.sister_hotel img{
+    width: auto;
+    height: 60px;
+    margin: 0 auto;
+		
+}
+.bg-logoFooter{
+    background-color: #d2a647;
+}
+@media screen and (max-width: 991px) {
+    .sister_hotel img {
+/*            width: auto;*/
+        max-height: 60px;
+    }
+	.box-member {
+		display:none !important;
+	}
+}
+@media screen and (max-width: 767px) {
+.bht-header .main-slide .caption {
+	width:61% !important;
+	}
+}
+
+
+@media screen and (min-width: 1199px) {
+	.sister_hotel {
+		width: 900px;
+		margin: 30px auto 30px;
+	}
+}
+
+
+.bht-header .main-slide .caption {
+    width: 31%;
+}
+.bht-header .main-slide .caption .hotelName {
+	text-align: left !important;
+}
+
+@media screen and (min-width: 1200px) {
+	.section-facilities .group-image .image a {
+		padding: 60px 35px 55px !important;
+	}
+
+}
+
+@media screen and (min-width: 992px) {
+.section-welcome ._headerStyle-1 {
+    width: 390px;
+	}
+	.section-welcome .image .rightImage {
+	width: 80% !important;
+	right: -100px !important;
+	margin-top: -110px !important;
+	height: 300px !important;
+}
+	.section-welcome .image .leftImage {
+		width: 85% !important;
+	}
+}
+
+
+.section-welcome .detail {
+	margin-top: 0 !important;
+}
+@media screen and (min-width: 768px) {
+	.box-card {
+		min-height:530px !important;
+	}
+}
+
+.picker--opened .picker__holder {
+	overflow-y: inherit;
+}
+
+.section-facilities ._headerStyle-3 h2 {
+	font-weight: 300 !important;
+}
+
+.btn_download {
+	margin-top: 15px;
+    color: #82015f;
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: transparent;
+    text-transform: uppercase;
+	border: 1px solid #82015f;
+	transition: all 0.3s ease-in-out;
+}
+.btn_download:hover {
+	color: #fff;
+	border: 1px solid #82015f;
+	background-color:#82015f;
+	transition: all 0.3s ease-in-out;
+}
+.caption_title {
+	margin-top: 15px;
+}
+.list_tourist {
+	margin-top: 30px;
+}
+
+.detail_tourist p {
+	margin: 0;
+}
+.tourist_attraction {
+	margin-bottom: 50px;
+}
+
+
+
+::-webkit-scrollbar {
+ width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+ -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+ -webkit-border-radius: 10px;
+ border-radius: 10px;
+ background: rgba(130, 1, 95, 0.8);
+ -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+}
+
+::-webkit-scrollbar-thumb:window-inactive {
+ background: #82015f;
+}
+
+.list_csr {
+    height: 250px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.detail_csr {
+    color: #333;
+    margin-top: 10px;
+	min-height: 70px;
+}
+
+.singledetail img{
+	margin: 0 auto;
+	display: block;
+}
+
+.section-facilitiesList .box-card:hover .roomSize p,
+.section-facilitiesList .box-card:hover a .header h3{
+	color : #333 !important;
+}
+
+.section-facilitiesList .box-card a .roomSize {
+    min-height: 156px;
+}
+

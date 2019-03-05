@@ -1,0 +1,249 @@
+.head-accom {
+	strong {
+		font-weight: 300;
+		text-transform: uppercase;
+		margin-top: 10px;
+		display: inline-block;
+		font-size: 18px;
+		&:after {
+				content: '';
+				display: block;
+				width: 40px;
+				border-bottom: 3px solid $secondcolor;
+				margin-top: 35px !important;
+				margin: 0 auto;
+		}
+	}
+}
+
+.slide-room {
+	.flexslider_rooms {
+		.margin: 0;
+		&:hover {
+			.flex-direction-nav {
+				a.flex-next {
+					right: -18px;
+					opacity: 1;
+				&:before {
+					content: '\f105';
+				}
+			}
+				a.flex-prev {
+					opacity: 1;
+					left: -18px
+				}
+			}
+		}
+		.slides {
+			> li {
+				margin-right: 50px;
+				position: relative;
+			}
+		}
+		.flex-direction-nav {
+			a {
+				height: 45px;
+				width: 45px;
+				text-align: center;
+				margin: 0 auto;
+				display: block;
+				padding: 8px 4px 0 5px;
+				background-color: $button-slide;
+				border-radius: 50px;
+				opacity: 1;
+				top: 32%;
+				&:before {
+					font: normal normal normal 14px/1 FontAwesome;
+					font-size: 30px;
+					display: inline-block;
+					content: '\f104';
+					color: $white;
+					height: 40px;
+				}
+			}
+			a.flex-next {
+				right: -18px;
+				&:before {
+					content: '\f105';
+				}
+			}
+			a.flex-prev {
+				left: -18px;
+			}
+		}
+	}
+}
+.card_hover {
+	&:hover {
+		text-decoration: none;
+	}
+}
+.room_page {
+	
+}
+.caption_room {
+	padding-top: 25px;
+	.title_name {
+		text-transform: uppercase;
+		color: $maincolor;
+	}
+	p {
+		color: $secondcolor;
+		margin-top: 10px;
+		font-weight: 300;
+	}
+}
+
+
+
+//section-service
+.section-service {
+	background-color: #f4f4f4;
+}
+
+.flexslider_service {
+	&:hover {
+			.flex-direction-nav {
+				a.flex-next {
+					right: 0;
+					opacity: 1;
+				&:before {
+					content: '\f105';
+				}
+			}
+				a.flex-prev {
+					opacity: 1;
+					left: 0;
+				}
+			}
+		}
+		.slides {
+			> li {
+				margin-right: 20px;
+				position: relative;
+			}
+		}
+		.flex-direction-nav {
+			a {
+				height: 45px;
+				width: 45px;
+				text-align: center;
+				margin: 0 auto;
+				display: block;
+				padding: 0 4px 0 5px;
+				opacity: 1;
+				top: 32%;
+				&:before {
+					font: normal normal normal 14px/1 FontAwesome;
+					font-size: 55px;
+					display: inline-block;
+					content: '\f104';
+					color: $white;
+					height: 80px;
+					font-weight: lighter;
+				}
+			}
+			a.flex-next {
+				right: 0;
+				&:before {
+					content: '\f105';
+				}
+			}
+			a.flex-prev {
+				left: 0;
+			}
+		}
+}
+
+
+
+//section-facilities
+
+
+
+.section-facilities {
+	background-image: url('../images/bg-facilities.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	.slides {
+		img {
+			width: 100px;
+			margin: 0 auto;
+			border: 2px solid $white;
+			border-radius: 50%;
+			padding: 15px;
+		}
+			> li {
+				margin-right: 50px;
+				position: relative;
+				p {
+					color: $white;
+					text-align: center;
+					margin-top: 20px;
+				}
+			}
+		}
+}
+.flexslider_facilities {
+    padding: 0 50px;	
+	&:hover {
+			.flex-direction-nav {
+				a.flex-next {
+					right: 0;
+					opacity: 1;
+				&:before {
+					content: '\f105';
+				}
+			}
+				a.flex-prev {
+					opacity: 1;
+					left: 0;
+				}
+			}
+		}
+		.slides {
+			> li {
+				margin-right: 50px;
+				position: relative;
+			}
+		}
+		.flex-direction-nav {
+			a {
+				height: 45px;
+				width: 45px;
+				text-align: center;
+				margin: 0 auto;
+				display: block;
+				padding: 0 4px 0 5px;
+				opacity: 1;
+				top: 32%;
+				&:before {
+					font: normal normal normal 14px/1 FontAwesome;
+					font-size: 55px;
+					display: inline-block;
+					content: '\f104';
+					color: $white;
+					height: 80px;
+					font-weight: lighter;
+				}
+			}
+			a.flex-next {
+				right: 0;
+				&:before {
+					content: '\f105';
+				}
+			}
+			a.flex-prev {
+				left: 0;
+			}
+		}
+}
+
+@media (max-width: 767px) {
+	.slide-room .flexslider_rooms .flex-direction-nav a.flex-next {
+    right: 0px;
+	}
+	.slide-room .flexslider_rooms .flex-direction-nav a.flex-prev {
+    left: 0px;
+	}
+}

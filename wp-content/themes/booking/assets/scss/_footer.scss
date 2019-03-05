@@ -1,0 +1,117 @@
+.copyright {
+	background-color: $black;
+	a {
+		color: #6f6f6f;
+		font-size: 14px;
+	}
+}
+.footer-menu {
+	float: right;
+	li {
+		padding: 0 8px 0 0;
+		&:after {
+			content: '/';			
+			padding-left: 8px;
+			color : #6f6f6f;
+		}
+		&:last-child {
+			&:after {
+				content: '';
+				padding: 0;
+			}
+		}
+	}
+}
+.footer-widget {
+	background-color: $secondcolor;
+	.logo-footer {
+		width: 180px;
+	}
+	.welcome-footer {
+		margin-top: 20px;
+		p {
+			color: #C7C7C7;
+			font-size: 14px;
+			font-weight: 300;
+			letter-spacing: 1px;
+			line-height: 20px;
+		}
+	}
+}
+.head-footer {
+	margin: 30px 0;
+	.title {
+		font-size: 14px;
+		color: $white;
+		span {
+			color: $maincolor;
+			margin: 0;
+		}
+	}	
+}
+.all_contact {
+		li {
+				color: #C7C7C7;
+				vertical-align: top;
+				list-style-type: none;
+				margin: 0;
+				padding: 0px 0px 10px 35px;
+				vertical-align: middle;
+				font-size: 14px;
+				background-size: 22px !important;
+				line-height: 20px;
+				margin-bottom: 10px;
+		}
+		.list_address {
+			background: url('../images/icon_address.png')no-repeat left top;
+		}
+		.list_phone {
+			background: url('../images/icon_phone.png')no-repeat left top;
+		}
+		.list_email {
+			background: url('../images/icon_mail.png')no-repeat left top;
+		}
+		.list_fax {
+			background: url('../images/icon_fax.png')no-repeat left top;
+		}		
+	}
+.email-footer {
+	i {
+		color: #C7C7C7;
+	}
+	.input-group-addon {
+		color: #999;
+    background-color: $black;
+    border-color: $black;
+	}
+	.form-control {
+		color: #999;
+    background-color: rgba(0,0,0,0.2);
+    border-color: rgba(0,0,0,0.25);
+	}
+	.btn_component {
+    margin-top: 7px;
+    text-align: center;
+    background-color: $button-check;
+    border-color: $button-check;
+		padding: 5px 10px;
+		font-size: 14px;
+		border-radius: 5px;
+		border: none;
+		&:hover {
+		background-color: $maincolor;
+		border-color: $maincolor;
+	}
+	}
+		
+}
+
+@media (max-width: 991px) {
+.copyright {
+    margin-bottom: 50px;
+		a {
+			text-align: center;
+			display: block;
+		}
+	}
+}

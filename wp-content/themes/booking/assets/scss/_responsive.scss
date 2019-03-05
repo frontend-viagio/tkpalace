@@ -1,0 +1,74 @@
+@media (min-width: 992px) {
+    .header-bar {
+        position: relative;
+    }
+    .header_page {
+        h1 {
+            font-size: 50px;
+            font-weight: bold;
+            letter-spacing: 2px;
+        }
+    }
+    .parallax {
+        min-height: 300px;
+        background-attachment: fixed;
+    }
+}
+
+
+
+@media (max-width: 991px) {
+    .box_search_page {
+        position: relative;
+        border-bottom: 2px solid $button-slide;
+        border-top: 2px solid $button-slide;
+        background-color: $maincolor;
+        padding-bottom: 40px;
+    }
+    .copyright {
+        margin: 0;
+    }
+    .btn_pad {
+        #btnBook {
+           padding: 8px 15px;
+           font-size: 16px;
+           border-radius: 5px;
+       }
+    }
+    .room-info {
+        h3 {
+            margin-bottom: 20px;
+            &::after {
+                content: '';
+                display: block;
+                width: 35px;
+                border-bottom: 2px solid $maincolor;
+                margin-top: 10px;
+            }
+        }
+    }
+    .room-amenity {
+        padding-left: 0;
+        border: none;
+    }
+}
+
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .box_search {
+        background-color: $maincolor;
+    }
+}
+
+
+@media (max-width: 767px) {
+    .room-amenity {
+        ul {
+            padding-left: 15px;
+            li {
+                display: block;
+            }
+        }
+    }
+}
